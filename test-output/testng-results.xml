@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-12T16:31:03 EET" name="Default suite" finished-at="2021-09-12T16:31:20 EET" duration-ms="17105">
+    <groups>
+    </groups>
+    <test started-at="2021-09-12T16:31:03 EET" name="Default test" finished-at="2021-09-12T16:31:20 EET" duration-ms="17105">
+      <class name="maven.Epiphanie_Tutoring.Login">
+        <test-method is-config="true" signature="openurl()[pri:0, instance:maven.Epiphanie_Tutoring.Login@9c73fff]" started-at="2021-09-12T16:31:03 EET" name="openurl" finished-at="2021-09-12T16:31:09 EET" duration-ms="6364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="login()[pri:0, instance:maven.Epiphanie_Tutoring.Login@9c73fff]" started-at="2021-09-12T16:31:09 EET" name="login" finished-at="2021-09-12T16:31:16 EET" duration-ms="7154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="open_edit_profile_page()[pri:0, instance:maven.Epiphanie_Tutoring.Login@9c73fff]" started-at="2021-09-12T16:31:16 EET" name="open_edit_profile_page" finished-at="2021-09-12T16:31:20 EET" depends-on-methods="maven.Epiphanie_Tutoring.Login.login" duration-ms="3434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_edit_profile_page -->
+        <test-method is-config="true" signature="close_driver()[pri:0, instance:maven.Epiphanie_Tutoring.Login@9c73fff]" started-at="2021-09-12T16:31:20 EET" name="close_driver" finished-at="2021-09-12T16:31:20 EET" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_driver -->
+      </class> <!-- maven.Epiphanie_Tutoring.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
